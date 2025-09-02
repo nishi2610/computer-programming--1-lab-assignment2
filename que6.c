@@ -1,25 +1,19 @@
-int x,y,z,m;
-scanf("%d,%d,%d",&x,&y,&z);
-m=(x+y+z)/3;
-printf("your average marks are %d\n",m);
-if(m>=70)
+#include<stdio.h>
+int main()
 {
-    printf("distinction");
-}
-else if(m>=60)
-{
-    printf("first class");
-}
-else if(m>=50)
-{
-    printf("second class");
-}
-else if(m>=35)
-{
-    printf("third class");
-}
-else
-{
-    printf("fail");
-}
+    int x,y,z,m;
+    scanf("%d,%d,%d",&x,&y,&z);
+    m=(x+y+z)/3;
+    printf("your average marks are %d\n",m);
+    if(m>=70){
+        printf("distinction");}
+    else if(m>=60){
+        printf("first class");}
+    else if(m>=50){
+        printf("second class");}
+    else if(m>=35){
+        printf("third class");}
+    else{
+        printf("fail");}
+    return 0;
 }

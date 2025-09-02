@@ -2,6 +2,7 @@
 int main()
 {
     int x,y,z,m;
+    printf("enter your marks of 3 subjects seperating it by commas:")
     scanf("%d,%d,%d",&x,&y,&z);
     m=(x+y+z)/3;
     printf("your average marks are %d\n",m);

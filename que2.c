@@ -14,5 +14,5 @@ if(b>a&&b>c)
     }
 else
 {printf("%d is greatest",c);}
-
+return 0;
 }

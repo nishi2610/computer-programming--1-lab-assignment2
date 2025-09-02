@@ -11,5 +11,5 @@ if(a>b)
 
 else
 {printf("%d is greater",b);}
-
+return 0;
 }
